@@ -1,0 +1,506 @@
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+/*from http://webdesign.tutsplus.com/tutorials/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972*/
+
+p {
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+/*main font is MULI*/
+
+.slide {
+    background-color: #CAC6AE;
+    height: 600px;
+}
+
+.bxslider {
+    visibility: hidden;
+}
+
+/*SLIDE #1 is title slide*/
+
+
+#slide1-img {
+    position: absolute;
+    left: 30%;
+    top: 3em;
+    height: 375px;
+border: 7px solid #E9967A;
+
+}
+
+#slide1-text {
+    position:absolute;
+    left: 23%;
+    right: 15%;
+    font-size: 3.5em;
+    bottom: .7em;
+
+}
+
+#slide1-subtext1 {
+  position:absolute;
+  left: 35%;
+  right: 15%;
+  font-size: 2em;
+  bottom: 1em;
+  color: #fff;
+}
+#slide1-subtext2 {
+  position:absolute;
+  left: 40%;
+  right: 15%;
+  font-size: 1em;
+  bottom: 2em;
+  color: #fff;
+}
+
+
+/*SLIDE #2 is edison slide*/
+
+#slide2-img {
+    position: absolute;
+    max-height:600px;
+}
+
+#slide2-text {
+    position: absolute;
+    left: 50%;
+    right: 7%;
+    top: 10%;
+    font-size:1.5em;
+    color: #fff;
+}
+#slide2-subtext {
+    position: absolute;
+    left: 50%;
+    right: 7%;
+    top: 70%;
+    font-size:1em;
+    color: #fff;
+}
+
+@media (max-width:960px) {
+    #slide2-text {
+        left: 9%;
+        top: 70%;
+        font-size: 1.5em;
+    }
+    #slide2-img {
+        height: 60%;
+        width: auto;
+        left: 30%;
+        top: 5%;
+    }
+}
+
+@media (max-width:520px) {
+    #slide2-text {
+        top: 58%;
+    }
+    #slide2-img {
+        height: 60%;
+        width: auto;
+        left: 15%;
+    }
+}
+
+/*SLIDE #3 is edison patent*/
+
+#slide3-img {
+    position: absolute;
+    right: 2%;
+    max-height:600px;
+}
+
+#slide3-text {
+    position: absolute;
+    left: 7%;
+    right: 50%;
+    top: 10%;
+    font-size:1.5em;
+}
+
+#slide3-subtext {
+    position: absolute;
+    left: 7%;
+    right: 50%;
+    top: 70%;
+    font-size:1em;
+    color: #fff;
+}
+
+@media (max-width:960px) {
+    #slide3-text {
+        left: 9%;
+        top: 70%;
+        font-size: 1.5em;
+    }
+    #slide3-img {
+        height: 60%;
+        width: auto;
+        left: 25%;
+        top: 2%;
+    }
+}
+
+@media (max-width:520px) {
+    #slide3-text {
+        top: 60%;
+    }
+    #slide3-img {
+        height: auto;
+        width: 100%;
+        left: 0%;
+    }
+}
+
+/*SLIDE #4 is berliner */
+#slide4-img {
+    position: absolute;
+    left: 0%;
+    top: 12%;
+}
+
+#slide4-text {
+    position: absolute;
+    left: 50%;
+    right: 7%;
+    top: 10%;
+    font-size:1.5em;
+}
+#slide4-subtext {
+    position: absolute;
+    left: 50%;
+    right: 7%;
+    top: 70%;
+    font-size:1em;
+    color: #fff;
+}
+@media (max-width:960px) {
+    #slide4-text {
+        left: 9%;
+        top: 60%;
+        font-size: 1.5em;
+    }
+    #slide4-img {
+        height: 60%;
+        width: auto;
+        left: 0%;
+    }
+}
+
+@media (max-width:520px) {
+    #slide4-text {
+        top: 50%;
+    }
+    #slide4-img {
+        height: 45%;
+        width: auto;
+        left: 0%;
+    }
+}
+
+/*SLIDE #5 is timeline*/
+/*#slide5 {
+}*/
+
+#title5 {
+    font-size: 2em;
+    text-align: center;
+    top: 15px;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#subtitle5 {
+    font-size:1.5em;
+    text-align: center;
+    top: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#slide5-img {
+    position: absolute;
+    left: 20%;
+    top: 18%;
+}
+
+
+/*SLIDE #6 is key people slide*/
+
+#slide6-img {
+    position: absolute;
+    height: 650px;
+  top:0em;
+  bottom:0em;
+  left: 2em;
+}
+
+/*SLIDE #7 is pillars slide*/
+
+#slide7-img {
+    position: absolute;
+    height: 650px;
+  top:0em;
+  bottom:0em;
+ left: 2em;
+}
+
+/*Slide #8 IS THE QUIZ slide*/
+
+h3 {
+    color: #000;
+    font-family: "Muli", Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.8em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#quiz-title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+#quiz {
+    overflow-y: scroll;
+    height: 495px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#quiz-title-sub {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+/*this is the Mother Jones News Quiz styling*/
+
+.possible_answer  {
+    padding: .75em;
+    font-weight: 600;
+    background-color: #708090;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.title {
+    padding-left: 20px;
+}
+
+.possible_answer:hover {
+	background: #CAC6AE;
+	cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.correct-answer, .wrong-answer {
+	opacity: .75;
+	cursor: pointer;
+        border-radius: 5px;
+}
+
+.wrong-answer {
+	background: #FF8362;
+}
+
+.correct-answer {
+    background: #62DA97;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.selected:hover, .correct-answer:hover, .wrong-answer:hover {
+	opacity: 1;
+}
+
+.how_you_did {
+	text-align: center;
+	padding: 1em;
+	background-color: #BC8F8F;
+        border-radius: 10px;
+        font-family: "Muli", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.25em;
+	-webkit-box-shadow: 0px 7px 5px rgba(50, 50, 50, 0.65);
+	-moz-box-shadow:    0px 7px 5px rgba(50, 50, 50, 0.65);
+	box-shadow:         0px 7px 5px rgba(50, 50, 50, 0.65);
+        width: 90%;
+}
+
+.question {
+    border: 6px solid #ff7f50;
+    border-radius: 50px;
+    padding: 10px 10px 10px;
+    background-color: #fff;
+    color: #000;
+    padding-left: 15px;
+}
+
+
+.possible_answer img {
+	max-height: 24em;
+}
+
+.question img, .revealed_answer img, .selected img, .correct-answer img, .wrong-answer img {
+    max-height: 24em;
+    display: block;
+}
+
+.videoembed {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.videoembed iframe, .videoembed object, .videoembed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div.question > p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+
+@media (max-width: 420px) {
+    .possible_answer {
+        width: 70%;
+    }
+
+    .how_you_did {
+        width: 80%;
+    }
+
+    div.question > p {
+        margin-left: 5px;
+        font-size: 1.15em;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 1.3em;
+        padding-left: 5px;
+    }
+
+    h3 {
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .question {
+        padding-left: 25px;
+    }
+}
+
+/*http://cssdeck.com/labs/css3-webkit-vertical-scrollbars//*/
+
+/*SLIDE #8 is closing slide with credits and video */
+
+#jb {
+    margin-left: 10px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+#jb-subtext{
+  position:absolute;
+  top: 100%;
+  left: 13%;
+  color: #fff;
+}
+#jb-video {
+
+    background-color: #CAC6AE;
+    height: 350px;
+    width: 580px;
+    margin-left: 25%;
+    position: absolute;
+    top: 20px;
+}
+
+#author {
+    position: absolute;
+    left: 29%;
+
+    top: 65%;
+    font-size:2.5em;
+}
+
+#workscited {
+    position: absolute;
+    left: 17%;
+
+    top: 75%;
+    font-size:2em;
+}
+
+@media (max-width:860px) {
+    #author {
+        left: 9%;
+        top: 75%;
+        font-size: 1.5em;
+    }
+    #workscited{
+        left: 9%;
+        top: 82%;
+        font-size: 1em;
+    }
+}
+
+@media (max-width:520px) {
+    #author {
+        left: 9%;
+        top: 77%;
+        font-size: 1.2em;
+    }
+    #workscited {
+        left: 9%;
+        top: 83%;
+        font-size: 1em;
+    }
+}
