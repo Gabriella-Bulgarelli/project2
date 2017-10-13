@@ -1,3 +1,6 @@
+/*alexis help-isn't as bad as you think on mobile. Just do some media queries and change the size of the images and text on the mobile screen size. Actually, try adding the "img-responsive" class on your images if you used bootstrap and see if that helps. */
+
+
 @viewport{
     zoom: 1.0;
     width: device-width;
